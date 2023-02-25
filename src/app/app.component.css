@@ -1,0 +1,40 @@
+* {
+  background-color: #e8f3d6;
+}
+
+.title-card {
+  text-align: center;
+  margin: 10px;
+}
+.line {
+  background-color: black;
+  height: 3px;
+  border: none;
+}
+
+.banner-table {
+  text-align: center;
+}
+
+#currency,
+th,
+td {
+  border: 2px solid;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#currency th {
+  background-color: #fcf9be;
+  font-weight: bolder;
+}
+
+#currency tr,
+td {
+  font-size: 15px;
+  background-color: #ffdca9;
+}
