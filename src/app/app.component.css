@@ -1,5 +1,5 @@
 * {
-  background-color: #e8f3d6;
+  background-color: #9ef1ff;
 }
 
 .title-card {
@@ -12,29 +12,53 @@
   border: none;
 }
 
-.banner-table {
-  text-align: center;
+.merkbox1 {
+  margin-top: 10%;
+  margin-left: 17%;
+  margin-bottom: 10%;
+  margin-right: -10%;
+  width: 85%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+
 }
 
-#currency,
-th,
-td {
-  border: 2px solid;
+.merkbox2 {
+  padding-bottom: 1rem;
+  margin-top: 10%;
+  margin-left: 75%;
+  margin-bottom: 10%;
+  margin-right: -10%;
+  width: 85%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+}
+
+.merktitel {
+  margin-bottom: 0rem;
+  min-height: 1rem;
+  padding: 0.5rem 0.5rem 0.3rem 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: #3e649c;
+}
+
+.merktitel p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.merktext {
+   padding: 1rem 1rem 3rem 1rem;
+  text-align: left;
+}
+
+#container1{
+  background-color: white;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  text-align: center;
-  font-size: 25px;
-}
-
-#currency th {
-  background-color: #fcf9be;
-  font-weight: bolder;
-}
-
-#currency tr,
-td {
-  font-size: 15px;
-  background-color: #ffdca9;
+  border: 2px solid #94bcf8;
 }

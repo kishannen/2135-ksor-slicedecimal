@@ -12,5 +12,42 @@
       <h2>Slice and Decimal Pipes</h2>
     </div>
     <hr class="line" />
+    <div class="container">
+      <div class="row">
+        <div class="col-9" id="container1">
+          GIVEN: <br />
+          FRUITS = ["Apple", "Orange", "Grapes", "Mango", "Kiwi", "Pomegranate"]
+          <br />
+          DECIMAL NUMBER 1 = 8.7589623 <br />
+          DECIMAL NUMBER 2 = 5.43 <br />
+        </div><br />
+        <div class="col-4" id="container2">
+          <div class="merkbox1">
+            <div class="merktitel">
+                SLICE PIPES
+            </div>
+            <div class="merktext">
+              <p>Start index:- {{Fruits | slice:2}}</p>
+              <p>Start and end index:- {{Fruits | slice:1:4}}</p>
+              <p>Negative index:- {{Fruits | slice:-2}}</p>
+              <p>Negative start and end index:- {{Fruits | slice:-4:-2}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4" id="container3">
+          <div class="merkbox2">
+            <div class="merktitel">
+                DECIMAL PIPES
+            </div>
+            <div class="merktext">
+              <p>{{decimalNum1 | number}}</p>
+              <p>{{decimalNum2 | number}}</p>
+              <p>Apply formatting:- {{decimalNum1 | number: '3.1'}}</p>
+              <p>Apply formatting:- {{decimalNum2 | number: '2.1-4'}}</p>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
